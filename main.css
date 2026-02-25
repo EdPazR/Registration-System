@@ -1,8 +1,17 @@
-body{
+body{ 
     margin: 0;
     text-align: center;
-   
+    background-image: url("pc.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 1800px;
+    background-attachment: fixed;
+    background-size: cover;
+    
 }
+
+
+    
 
 
 nav{
@@ -15,34 +24,54 @@ nav{
 
 p{
 margin: 0;
+color: white;
+text-align: center;
+
 }
 
 input{
     background-color: #D9D9D9 ;
-    height: 24px ;
-    width: 240px;
+    height: 40px ;
+    width: 350px;
     align-items: center;
     margin-top: 15px;
-    
+    background: white;
+    border-color: aqua;
+    padding-left: 15px;
+    font-size: 15px;
+
 }
 
 form{
+    
     margin-top: 48px;
-    display: flex;
+    padding: 0px, 200px;
+    display:flex;
     flex-direction: column;
+    text-align: center;
     align-items: center;
+    background: rgba(0, 0, 0, 0.4);
+    background-position: 0cap;
+    
 
 }
 
 button{
-    width: 80px ;
-    height: 20px ;
+    align-items: center;
+    width: 120px ;
+    height: 45px ;
     margin-top: 48px;
-    background-color: #47D0B8;
+    background-color: #159bde;
+    color: aliceblue;
+    border: 7px #159bde ;
+    font-style:bold; 
+    font-size: 15px;
     
+
 }
+
 .title-nav{
-color : aliceblue;
+
 font-size:  64px; ;
 
 }
@@ -50,11 +79,7 @@ font-size:  64px; ;
     font-size: 20px ;
     margin-top: 75px; 
     font-family: "Luminari", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-
-      
-    
-
+ 
 
  } ;
        
